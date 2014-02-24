@@ -1,0 +1,11 @@
+Package: S4data
+Type: Package
+Title: Drop-in S4 classes for base R data.frame, vector, list and data.tables 
+   that allow for overloading and polymorphism of base data accessors: $, [[, [ 
+Version: 0.1
+Date: 2014-02-24
+Author: Christopher Brown 
+Maintainer: Christopher Brown <chris.brown -at- decisionpatterns.com>
+Description: Provides objects S4.data.frame and S4.data.table. These objects allow non-standard definitions for the accessor functions: $, [[, [
+Suggests: data.table
+License: GPLv2
